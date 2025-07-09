@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-left .logo {
+  height: 28px;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.search-box {
+  display: flex;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 36px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 0 12px;
+  border: none;
+  outline: none;
+}
+
+.search-box .search-btn {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.mic-btn {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mic-btn img {
+  height: 24px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-right .icon {
+  height: 24px;
+  cursor: pointer;
+}
+
+.profile {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.home{
+    display :flex;
+    align-items: center;
+    flex-direction: row;
+    height:60px;
+    width: 100%;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.home img{
+    height: 24px;
+}
+.home span {
+  font-size: 14px;
+  color: #333;
+}
+.google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.my-google {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Row layout for input + button */
+.search-row {
+  display: flex;
+  gap: 10px; 
+}
+
+.search-row input[type="text"] {
+  width: 350px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  outline: none;
+  margin-top: 0%;
+  vertical-align: top;
+}
+
+.search-row button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 24px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+}
+
+.search-row button:hover {
+  background-color: #357ae8;
+}

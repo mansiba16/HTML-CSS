@@ -1,0 +1,54 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+
+.youtube-homepage {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 40px;
+}
+
+.search {
+  flex: 1;
+  max-width: 500px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: 1px solid #ccc;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.thumbnail, .thumbnail1 {
+  width: 100px;
+  height: 76px;
+  border-radius: 8px;
+}
+    
